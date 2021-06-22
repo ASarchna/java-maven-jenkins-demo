@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+  <Appenders>
+    <File name="slf4j.xml" fileName="${slf4j.xml}">
+      <PatternLayout>
+        <pattern>%d %p %C{1.} [%t] %m%n</pattern>
+      </PatternLayout>
+    </File>
+  </Appenders>
+
+  <Loggers>
+   <logger name="com" level="info" additivity="false"></logger>
+    <Root level="warn">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+
+</Configuration>

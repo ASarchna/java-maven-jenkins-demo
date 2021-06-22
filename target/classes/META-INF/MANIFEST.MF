@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: Archna
+Build-Jdk: 11.0.1
+Class-Path: lib/slf4j-api-1.7.5.jar lib/slf4j-simple-1.6.4.jar
+Main-Class: com.sapient.product1.Application
+Created-By: Maven Integration for Eclipse
+
